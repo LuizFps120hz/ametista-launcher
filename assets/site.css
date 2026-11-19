@@ -1,0 +1,86 @@
+/* Ametista project page. Minimal: one reading column, colour only on the
+   download button and links, no gradients or shadows.
+   Type: Chakra Petch for headings (shared with the app), Inter for text.
+   Spacing on a 4/8 px rhythm; type scale 14 / 16 / 17 / 22 / 40. */
+:root{
+  color-scheme:dark;
+  --bg:#0B0B12; --surface:#13121F; --line:#26233A;
+  --fg:#E9E7F1; --fg-dim:#A7A4B8; --fg-faint:#8C89A1;
+  --accent:#7C3AED; --accent-dark:#6D28D9; --link:#B9A2FA;
+  --head:'Chakra Petch','Segoe UI',system-ui,sans-serif;
+  --body:'Inter','Segoe UI',system-ui,-apple-system,sans-serif;
+  --mono:ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',monospace;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.65 var(--body)}
+img{max-width:100%;height:auto}
+a{color:var(--link);text-underline-offset:3px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:2px solid var(--link);outline-offset:3px;border-radius:4px}
+h1,h2{font-family:var(--head);font-weight:600;letter-spacing:.3px;line-height:1.2;margin:0;text-wrap:balance}
+p{margin:0}
+code{font:14px var(--mono);background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:1px 5px}
+
+.skip{position:absolute;left:16px;top:-60px;background:var(--accent);color:#fff;padding:10px 16px;border-radius:8px;text-decoration:none;z-index:10}
+.skip:focus{top:12px}
+
+.col{max-width:760px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+
+.top{border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+.top-in{display:flex;justify-content:space-between;align-items:center;min-height:60px}
+.logo{display:flex;align-items:center;gap:10px;color:var(--fg);text-decoration:none;font:600 17px var(--head);letter-spacing:.5px}
+.top-link{color:var(--fg-dim);text-decoration:none;font-size:15px;min-height:44px;display:inline-flex;align-items:center;padding:0 4px}
+.top-link:hover{color:var(--fg)}
+
+main{display:grid;gap:56px;padding-block:56px 72px}
+main section{display:grid;gap:16px}
+h1{font-size:40px}
+h2{font-size:22px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.desc{color:var(--fg-dim);font-size:19px;max-width:36em}
+.intro{gap:20px}
+
+.dl{display:grid;gap:10px;justify-items:start;min-height:96px;align-content:start}
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 20px;border-radius:8px;background:var(--accent);color:#fff;
+  font:600 16px var(--body);text-decoration:none;transition:background-color .15s}
+.btn:hover{background:var(--accent-dark)}
+.btn svg{width:18px;height:18px;flex:none}
+.btn[aria-disabled="true"]{background:var(--surface);color:var(--fg-dim);border:1px solid var(--line);pointer-events:none}
+.dl-info{font-size:15px;color:var(--fg-faint)}
+.dl-info a{white-space:nowrap}
+
+.shot{margin:0;display:grid;gap:8px}
+.shot img{display:block;border-radius:10px;border:1px solid var(--line)}
+.shot figcaption{font-size:14px;color:var(--fg-faint)}
+
+.list{margin:0;padding-left:22px;display:grid;gap:8px;color:var(--fg)}
+.list li::marker{color:var(--fg-faint)}
+.flow{margin:0;padding-left:24px;display:grid;gap:8px;color:var(--fg)}
+.flow li::marker{font-family:var(--head);color:var(--link)}
+main section > p{color:var(--fg-dim)}
+
+.req{margin:0}
+.req div{display:grid;grid-template-columns:120px minmax(0,1fr);gap:16px;padding:12px 0;border-bottom:1px solid var(--line)}
+.req div:last-child{border-bottom:0}
+.req dt{font-weight:600}
+.req dd{margin:0;color:var(--fg-dim)}
+
+.faq{display:grid;gap:0;border-top:1px solid var(--line)}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{cursor:pointer;list-style:none;min-height:52px;padding:12px 40px 12px 0;position:relative;font-weight:600;display:flex;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:6px;top:50%;transform:translateY(-50%);font:400 22px var(--body);color:var(--fg-dim)}
+.faq details[open] summary::after{content:"−"}
+.faq details p{padding:0 0 16px;color:var(--fg-dim)}
+
+.foot{border-top:1px solid var(--line);padding-block:28px calc(36px + env(safe-area-inset-bottom,0px));color:var(--fg-faint);font-size:14px}
+.foot .col{display:grid;gap:4px}
+
+@media (max-width:640px){
+  body{font-size:16px}
+  main{gap:44px;padding-block:40px 56px}
+  h1{font-size:34px}
+  .desc{font-size:17px}
+  .req div{grid-template-columns:minmax(0,1fr);gap:2px}
+}
+@media (prefers-reduced-motion:reduce){.btn{transition:none}}
