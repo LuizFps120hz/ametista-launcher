@@ -27,9 +27,15 @@
     <h1 id="t-intro">Ametista</h1>
     <p class="desc">Launcher para Minecraft: Java Edition, para Linux e Windows. Faz login com a conta Microsoft, instala o jogo e mantém os mods de cada pack atualizados.</p>
 
-    <div class="dl" id="dl" aria-live="polite">
-      <a class="btn" id="dl-main" href="https://github.com/LuizFps120hz/ametista-launcher/releases" aria-disabled="true">Carregando…</a>
-      <p class="dl-info" id="dl-info"></p>
+    <div class="dl" id="dl">
+      <div class="split" id="split">
+        <a class="btn split-main" id="dl-main" href="https://github.com/LuizFps120hz/ametista-launcher/releases" aria-disabled="true">Carregando…</a>
+        <button class="btn split-more" id="dl-more" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="dl-menu" aria-label="Outras opções de download" hidden>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <ul class="menu" id="dl-menu" role="menu" aria-label="Outras opções de download" hidden></ul>
+      </div>
+      <p class="dl-info" id="dl-info" aria-live="polite"></p>
     </div>
   </section>
 

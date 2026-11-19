@@ -47,6 +47,24 @@ h2{font-size:22px;padding-bottom:10px;border-bottom:1px solid var(--line)}
 .btn svg{width:18px;height:18px;flex:none}
 .btn[aria-disabled="true"]{background:var(--surface);color:var(--fg-dim);border:1px solid var(--line);pointer-events:none}
 .dl-info{font-size:15px;color:var(--fg-faint)}
+
+/* Split button: main download + menu with the other formats */
+.split{position:relative;display:inline-flex}
+.split-main{border-radius:8px 0 0 8px}
+.split-main:has(+ .split-more[hidden]){border-radius:8px}
+.split-more{border-radius:0 8px 8px 0;padding:0;width:48px;justify-content:center;border-left:1px solid rgba(255,255,255,.28);cursor:pointer}
+.split-more svg{width:18px;height:18px;transition:transform .15s}
+.split-more[aria-expanded="true"]{background:var(--accent-dark)}
+.split-more[aria-expanded="true"] svg{transform:rotate(180deg)}
+.menu{position:absolute;top:calc(100% + 8px);left:0;z-index:5;min-width:100%;width:max-content;max-width:min(360px,calc(100vw - 40px));margin:0;padding:6px;list-style:none;
+  background:var(--surface);border:1px solid var(--line);border-radius:10px}
+.menu a{display:grid;gap:2px;padding:10px 12px;border-radius:6px;color:var(--fg);text-decoration:none;min-height:44px}
+.menu a:hover,.menu a:focus-visible{background:var(--line);outline:none}
+.menu a:focus-visible{box-shadow:inset 0 0 0 2px var(--link)}
+.menu .t{font-weight:600;font-size:15px;display:flex;gap:8px;align-items:center}
+.menu .h{font-size:13px;color:var(--fg-dim)}
+.menu .rec{font-size:12px;font-weight:500;color:var(--link)}
+.menu .sep{height:1px;background:var(--line);margin:6px 4px}
 .dl-info a{white-space:nowrap}
 
 .shot{margin:0;display:grid;gap:8px}
@@ -83,4 +101,4 @@ main section > p{color:var(--fg-dim)}
   .desc{font-size:17px}
   .req div{grid-template-columns:minmax(0,1fr);gap:2px}
 }
-@media (prefers-reduced-motion:reduce){.btn{transition:none}}
+@media (prefers-reduced-motion:reduce){.btn,.split-more svg{transition:none}}
