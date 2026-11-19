@@ -12,6 +12,7 @@
   --mono:ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',monospace;
 }
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.65 var(--body)}
 img{max-width:100%;height:auto}
@@ -52,7 +53,7 @@ h2{font-size:22px;padding-bottom:10px;border-bottom:1px solid var(--line)}
 .split{position:relative;display:inline-flex}
 .split-main{border-radius:8px 0 0 8px}
 .split-main:has(+ .split-more[hidden]){border-radius:8px}
-.split-more{border-radius:0 8px 8px 0;padding:0;width:48px;justify-content:center;border-left:1px solid rgba(255,255,255,.28);cursor:pointer}
+.split-more{border-radius:0 8px 8px 0;padding:0;width:48px;justify-content:center;border:0;border-left:1px solid rgba(255,255,255,.28);cursor:pointer}
 .split-more svg{width:18px;height:18px;transition:transform .15s}
 .split-more[aria-expanded="true"]{background:var(--accent-dark)}
 .split-more[aria-expanded="true"] svg{transform:rotate(180deg)}
