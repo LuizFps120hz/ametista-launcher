@@ -1,23 +1,23 @@
 {
-  "version": "0.1.0-beta.2",
+  "version": "0.1.0-beta.3",
   "notes": "",
-  "pub_date": "2026-11-20T00:10:57Z",
+  "pub_date": "2026-11-20T01:40:10Z",
   "platforms": {
     "linux-x86_64-appimage": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTHVIQXR3dUJpL3dFSGcxQzVreENMbjdEU1Bvekd2WFMrcEkyMmM5a0lzM0twejd6VG5DRzNPTXdabTBzZE9uM1BTYW8vMjlEKy8zTzBzd01hOGQwSmQ4TDJtT3NqSUFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTMwMDQwCWZpbGU6QW1ldGlzdGFfMC4xLjAtYmV0YS4yX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjAtYmV0YS4yCm9KN05QRUJMYkhnVzdvUTljYlVTM1IxN0crRUFSdGZua2lpQzYrMG1RMXh5L3Z6ZWswaW50eVB0bzYxajNLT3dCOXovYjE4dFBRa0QvMk5Pd05KUUR3PT0K",
-      "url": "https://github.com/LuizFps120hz/ametista-launcher/releases/download/v0.1.0-beta.2/Ametista_0.1.0-beta.2_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTHVIQXR3dUJpLzl6NEdya09JTmVBZmxTVUZNSCtXNXlmQy9DWUtlaVZuSzBkSVYxc296YWl3UjMvdmg5TFRldXRuRVZIcjgxVEMvRXVFUnhSeFBFMEJjTGY3dnlueHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTM4NzI1CWZpbGU6QW1ldGlzdGFfMC4xLjAtYmV0YS4zX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjAtYmV0YS4zCjJhWGRvMzBuRlpWUFcxbGNNR2lNOTVORjkzK3VxOThGMkoyL1JMRUNJd0xMU0JSK2V0ZGVPNkVTMkRMVWtaT1FZTm9KZUhVbDhFdXhkajQzTFRXUUNnPT0K",
+      "url": "https://github.com/LuizFps120hz/ametista-launcher/releases/download/v0.1.0-beta.3/Ametista_0.1.0-beta.3_amd64.AppImage"
     },
     "linux-x86_64-deb": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTHVIQXR3dUJpLzVYVDV3SWNiSzN2Q3F2TUhJMHlLSzRGMGdPQjB0bU1tTHdlM1JmNE5YakwyVmc0TmNPNm5sZWs3OUVXaFJCajNXZXh6TUV1MndTcklxL0t4cXpoWVFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTMwMDQwCWZpbGU6QW1ldGlzdGFfMC4xLjAtYmV0YS4yX2FtZDY0LmRlYgl2ZXJzaW9uOjAuMS4wLWJldGEuMgp3bnJERjgrY1NscjNxRWNHRFlvbHd1dDh1V1B5bW8xWEpKMXFjNWRyK0EvSi9FTkVLQzMzN3lSOG52SXd0aGdVM05ha2pCVGU0LzVjMFR0TWRmOCtCdz09Cg==",
-      "url": "https://github.com/LuizFps120hz/ametista-launcher/releases/download/v0.1.0-beta.2/Ametista_0.1.0-beta.2_amd64.deb"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTHVIQXR3dUJpLzY1aGkxRWJaNWlENU42R25acHBxeldqa0VPNjgxaXRDQ1R1bGxWSlRrcldtTWxzenhRQlB2NmJKMWt2UHQ4cEQxMXNzQ1dKaTNpU3J5RTFUbDdaNndBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTM4NzI1CWZpbGU6QW1ldGlzdGFfMC4xLjAtYmV0YS4zX2FtZDY0LmRlYgl2ZXJzaW9uOjAuMS4wLWJldGEuMwpjeTRITXYraVUyNkl1WndUSVcyV09WL2FrR1VUTHVVa21KaS9EUWR2OHFYVi85TTdVd1NuL3JiamJGa09FMjdIbWZwMFpTVGZiM3UyTFJNSmVuRHRBUT09Cg==",
+      "url": "https://github.com/LuizFps120hz/ametista-launcher/releases/download/v0.1.0-beta.3/Ametista_0.1.0-beta.3_amd64.deb"
     },
     "windows-x86_64-msi": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTHVIQXR3dUJpLzgxUGhmQjJWZ1BwVEdYbmdORGxQSjZwbUIvcXdkQlZ3V05FZWJ1Wm5wa29EMkhMNU44Y0p4S2JpK3RiQnFjTHpDOXlGT3ZkNWpyTmE0Vk44aEJ2SEFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTMzMTE3CWZpbGU6QW1ldGlzdGFfMC4xLjAtYmV0YS4yX3g2NF9lbi1VUy5tc2kJdmVyc2lvbjowLjEuMC1iZXRhLjIKQ1RjR2hPdGlMdUozS0FhNEJZL0JQbjNTaGZZcGNhRDZLcEdyTklpcklVaDIzNTEwNVhBYjhHRTZkSXN0S2pOczJJWDNuMTBTLzFrelo0WnZ3dDkxQWc9PQo=",
-      "url": "https://github.com/LuizFps120hz/ametista-launcher/releases/download/v0.1.0-beta.2/Ametista_0.1.0-beta.2_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTHVIQXR3dUJpLzl6cWhrMitMWE9mNVdERDNYMlFnMmpLUXZnQ1ZxN3I2d2dSc1l0TE5iVzJZei9BdUlGNFlhYnZJMzR2RDV4ZnV2SzhmYmxrM1BzUXN1TnFKUWQwYVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTM2MDg1CWZpbGU6QW1ldGlzdGFfMC4xLjAtYmV0YS4zX3g2NF9lbi1VUy5tc2kJdmVyc2lvbjowLjEuMC1iZXRhLjMKdGRtSmJjSzFabTZFTHk1bDhjRnlQSW5acjZGTXViSlcxaVJ0blhVN1RqUHJMQTMwSDgzamVKa2tCazhFK3BVY0FTTGZLd2xnVTNKY1RQQkpQT2N4QXc9PQo=",
+      "url": "https://github.com/LuizFps120hz/ametista-launcher/releases/download/v0.1.0-beta.3/Ametista_0.1.0-beta.3_x64_en-US.msi"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTHVIQXR3dUJpL3c3Uk5lQSs4MTNuWXVzNGNQbUFocTF4NVFMN2NqNGdleDR3Y1VxZmxUWkkzeGMzSTIyUTdQbjhzRlJTY3lDWUxvVXFMWkVCcFl5R3kyaUlLUDlndndFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTMzMTE3CWZpbGU6QW1ldGlzdGFfMC4xLjAtYmV0YS4yX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMC1iZXRhLjIKNjhYV2YzeUY5SWJGZ0R5clUzUDB5ZGpxc3VlOU5kYkpVY2NiN0g0MlFzeEhYOWVHYWhlMkpwNDFKa211TVNMQU04VFB5K3pZMTdHOXRvbnpxQVplRFE9PQo=",
-      "url": "https://github.com/LuizFps120hz/ametista-launcher/releases/download/v0.1.0-beta.2/Ametista_0.1.0-beta.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTHVIQXR3dUJpLy9DR2xaL01ra0RqK2ZkVlNVbWN5WW50QzBwVjJkbEp5NkduVWhKYm5VY1VqczBuQ3RMc2xUSWJmRUlRQllDcTNPeXF1ZnRoaHNnWXJTdXljd0J2b0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTM2MDg1CWZpbGU6QW1ldGlzdGFfMC4xLjAtYmV0YS4zX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMC1iZXRhLjMKbXIwVGZjbmp1SDA5aHkyMkZ2djNNd2JzSXYwOG1pSmMvL29SU1Z2aGh2ZTV3TDcwTk85MHBVNTZaUU01UnBwRWFQb0l1OE5iQVpzU2VOSXNVR2c1QkE9PQo=",
+      "url": "https://github.com/LuizFps120hz/ametista-launcher/releases/download/v0.1.0-beta.3/Ametista_0.1.0-beta.3_x64-setup.exe"
     }
   }
 }
